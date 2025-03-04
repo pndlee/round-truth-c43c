@@ -1,0 +1,30 @@
+{
+  "name": "round-truth-c43c",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cool-surf-7490-d1",
+      "database_id": "cb09e899-ce61-4351-bb3b-9cc590835dfd"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "round-truth-c43c-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
